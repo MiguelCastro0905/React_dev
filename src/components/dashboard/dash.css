@@ -1,0 +1,67 @@
+.containerLista{
+    background-color: rgb(253, 253, 253);
+    width: 100%;
+    height: 90vh;
+    
+}
+.listaDer{
+    background-color: rgb(255, 255, 255);
+    height: 90vh;
+    padding: 50px;
+
+}
+.listaIzq{
+    /*background-color: rgb(208, 209, 127)*/
+    height: 90vh;
+    padding: 50px;
+
+}
+
+.cuadroIzq{
+
+    background-color: #0B7FCE;
+    width: 90%;
+    height: 100%;
+    border-radius: 25px;
+  
+}
+
+.img-responsive{
+    width: 100%;
+    height: auto;
+}
+
+
+
+table{
+    align-items: center;
+    align-self: center;
+}
+
+th, td {
+    padding: 8px; 
+    color:white;
+    font-size: auto;   
+}
+
+#textoid{
+    width: 80%
+}
+
+
+.img-fluid{
+    opacity: 0.3;
+   
+    width: 55%;
+}
+
+
+
+.cuadroDer{
+    width: 100%;
+    height: 100%;
+    background-color: #0b80ce00;
+    border: 3px solid #0B7FCE;
+    border-radius: 25px;
+    
+}
