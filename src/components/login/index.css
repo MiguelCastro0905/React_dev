@@ -12,15 +12,16 @@
   .widht-100 {
     width: 100%;
   }
-  
-  .img-fluid {
+
+  .imagefondoizq{
     display: flex;
-    padding: 50px;
     margin-left: auto;
     margin-right: auto;
-
   }
+
+
   
+
   .recuadroDer {
     display: block;
     justify-content: center;
@@ -45,34 +46,14 @@
     color: white;
   }
   
-  @media only screen and (max-width: 600px) {
-    .recuadro2 {
-      background-color: #0B7FCE;
-      width: 100%;
-      color: rgb(0, 0, 0);
-    }
-    .recuadroIzq {
-      display: block;
-      justify-content: center;
-      align-items: center;
-      max-height: 50vh;
-      height: 50vh;
-      /* background-color: aqua; */
-    }
-    .recuadroDer {
-      display: block;
-      justify-content: center;
-      align-items: center;
-      max-height: 40vh;
-      height: 40vh;
-      /* background-color: blueviolet; */
-    }
-    .btn {
-      color: rgb(255, 255, 255);
-      background: #0B7FCE;
-      width: 100%;
-    }
-  }
+ .linea-horizontal{
+  height: 4px;
+  width: 90%;
+  background-color:#0B7FCE;
+  
+ }
+ 
+
   
   
   .btn {
@@ -88,4 +69,16 @@
     display: flex;
     font-size: 500%;
   }
-  
+
+.imageicon{
+  bottom: 0;
+  right: 0;
+  position: fixed;
+}
+
+.linea-vertical{
+  width: 0.5%; 
+  height: 400px;
+  background-color: #0B7FCE; 
+  margin: 0 auto; 
+}

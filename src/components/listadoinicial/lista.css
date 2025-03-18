@@ -1,85 +1,89 @@
-.containerLista{
-    background-color: rgb(253, 253, 253);
-    width: 100%;
-    height: 90vh;
-    
+.listaIzquierda {
+    margin-left: auto;
+    margin-right: auto;
 }
-.listaDer{
+
+.listaDerecha {
     background-color: rgb(255, 255, 255);
-    height: 90vh;
-    padding: 50px;
+    height: 80vh;
 
-}
-.listaIzq{
-    /*background-color: rgb(208, 209, 127)*/
-    height: 90vh;
-    padding: 50px;
 
 }
 
-.cuadroIzq{
+
+.cuadroIzquierdo {
 
     background-color: #0B7FCE;
-    width: 90%;
-    height: 100%;
-    border-radius: 25px;
-  
-}
-
-.img-responsive{
     width: 100%;
-    height: auto;
+    height: 80vh;
+    border-radius: 25px;
+    margin-top: 15%;
+
 }
 
 
 
-table{
+
+table {
     align-items: center;
     align-self: center;
 }
 
-th, td {
-    padding: 8px; 
-    color:white;
-    font-size: auto;   
-}
-
-#textoid{
-    width: 80%
-}
-
-
-.img-fluid{
-    opacity: 0.3;
-   
-    width: 55%;
+th,
+td {
+    padding: 8px;
+    color: white;
+    font-size: auto;
 }
 
 
 
-.cuadroDer{
+.cuadroDer {
     width: 100%;
-    height: 100%;
+    height: 80vh;
     background-color: #0b80ce00;
     border: 3px solid #0B7FCE;
     border-radius: 25px;
+    background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url(../../image/Recurso1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 5%;
     
+   
+
+
+}
+@media (max-width: 768px) {
+    .cuadroDer {
+      background-size: 80%;
+     
+    }
 }
 
 
-.table-responsive2 {
-    margin-top: 30px;
-    
-    width: 90%;
-    height: 5%;
-    margin-left: 5%;
-    
-    
-  }
+th {
+    background-color: #606060 !important;
+}
 
-  #encabezado{
-    background-color: #606060;
-  }
-  table, th, td {
-    border: 2px solid #0B7FCE; /* Bordes de 2px de color azul */
-  }
+tr {
+    border: 2px solid #0B7FCE;
+}
+
+tbody {
+    height: 65vh;
+    max-height: 100vh;
+}
+
+.reco {
+    border: 2px solid #0B7FCE;
+    background-color: #ffffffbe !important;
+}
+
+
+.table-recorrido {
+    margin-top: 2%;
+    width: 93%;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
