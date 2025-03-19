@@ -1,91 +1,103 @@
-
   
-  .recuadroIzq {
-    display: block;
-    justify-content: center;
-    align-items: center;
-    max-height: 90vh;
-    height: 90vh;
-    /* background-color: aqua; */
-  }
-  
-  .widht-100 {
+  .width-100 {
     width: 100%;
   }
-  
-  .img-fluid {
+
+  .imagefondoizq{
     display: flex;
-    padding: 50px;
     margin-left: auto;
     margin-right: auto;
+  }
 
-  }
-  
-  .recuadroDer {
-    display: block;
-    justify-content: center;
-    align-items: center;
-    max-height: 90vh;
-    height: 90vh;
-  
-  }
   .containerDer{
     display: flex;
   }
   
   .recuadro2 {
-    background-color: #0B7FCE;
-    width: 80%;
+    background-color: white; /* Fondo blanco */
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     border-radius: 6px;
     padding: 30px;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    color: white;
-  }
+    margin-top: 10%;
+    margin-bottom: 20%;
+    color: black; /* Cambiar el color del texto a negro para que sea legible sobre el fondo blanco */
+    border: 2px solid #39A900; /* Borde de color #39A900 */
+}
   
-  @media only screen and (max-width: 600px) {
-    .recuadro2 {
-      background-color: #0B7FCE;
-      width: 100%;
-      color: rgb(0, 0, 0);
-    }
-    .recuadroIzq {
-      display: block;
-      justify-content: center;
-      align-items: center;
-      max-height: 50vh;
-      height: 50vh;
-      /* background-color: aqua; */
-    }
-    .recuadroDer {
-      display: block;
-      justify-content: center;
-      align-items: center;
-      max-height: 40vh;
-      height: 40vh;
-      /* background-color: blueviolet; */
-    }
-    .btn {
-      color: rgb(255, 255, 255);
-      background: #0B7FCE;
-      width: 100%;
-    }
-  }
+ .linea-horizontal{
+  height: 4px;
+  width: 90%;
+  background-color:#39A900;
   
+ }
   
   .btn {
     color: rgb(255, 255, 255);
-    background: #0B7FCE;
+    background: #39A900;
     border-radius: 10px;
     padding-left: 50px;
     padding-right: 50px;
   }
   
-  h1 {
-    color: #0B7FCE;
+  .h1 {
+    color: #39A900;
     display: flex;
     font-size: 500%;
   }
-  
+
+.imageicon{
+  bottom: 0;
+  right: 0;
+  position: fixed;
+}
+
+.linea-vertical{
+  width: 0.5%; 
+  height: 400px;
+  background-color: #39A900; 
+  margin: 0 auto; 
+}
+
+/* Estilos personalizados para el dropdown */
+.Elegir_rol {
+  color: #39A900;
+}
+
+.dropdown-toggle {
+  background-color: white; /* Color de fondo del botón */
+  border-color: gainsboro;
+  border-style: double;
+  color: #39A900; /* Color del texto "Elegir rol" */
+  display: flex;
+  justify-content: space-between; /* Alinea el texto y la flecha a los extremos */
+  align-items: center; /* Centra verticalmente el contenido */
+}
+
+/* Cambiar el color de la flecha del dropdown */
+.dropdown-toggle::after {
+  border-top-color: #39A900; /* Color de la flecha */
+  margin-left: 10px; /* Espacio entre el texto y la flecha */
+}
+
+/* Estilos para el menú desplegable */
+.dropdown-menu {
+  border-radius: 5px; /* Bordes redondeados */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada */
+  border: 1px solid #e0e0e0; /* Borde sutil */
+  margin-top: 5px; /* Espacio entre el botón y el menú desplegable */
+}
+
+/* Cambiar el color de fondo al pasar el mouse sobre los elementos del dropdown */
+.dropdown-item:hover {
+  background-color: #39A900; /* Color de fondo al pasar el mouse */
+  color: white; /* Color del texto al pasar el mouse */
+}
+
+/* Estilo para el texto de los elementos del dropdown */
+.dropdown-item {
+  color: #333; /* Color del texto por defecto */
+  padding: 8px 16px; /* Espaciado interno */
+  transition: background-color 0.3s ease, color 0.3s ease; /* Transición suave */
+}
