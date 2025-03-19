@@ -1,16 +1,12 @@
-import React, { useState } from 'react'; // Importamos useState
-import ReactDOM from 'react-dom/client';
-import image1 from '../../image/Recurso1.png';
-import image2 from '../../image/Recurso2.png';
+import React, { useState } from 'react'; 
 import './index.css';
 
 const Login = () => {
-  // Estado para almacenar el rol seleccionado
+
 const [selectedRole, setSelectedRole] = useState('Elegir Rol');
 
-  // Función para manejar la selección de un rol
 const handleRoleSelect = (role) => {
-    setSelectedRole(role); // Actualiza el estado con el rol seleccionado
+    setSelectedRole(role); 
 };
 
 return (
@@ -18,7 +14,6 @@ return (
         <div className="cuadro-inferior1">
             <div className="recuadro"></div>
         </div>
-
         {/* Contenedor principal para centrar el contenido */}
         <div className="d-flex justify-content-center align-items-center vh-100">
             <div className="container2">
@@ -45,7 +40,7 @@ return (
                                         <a
                                         className="dropdown-item"
                                         href="#"
-                                        onClick={() => handleRoleSelect('Aprendiz')} // Selecciona "Aprendiz"
+                                        onClick={() => handleRoleSelect('Aprendiz')} 
                                         >
                                         Aprendiz
                                         </a>
@@ -54,7 +49,7 @@ return (
                                         <a
                                         className="dropdown-item"
                                         href="#"
-                                        onClick={() => handleRoleSelect('Instructor')} // Selecciona "Instructor"
+                                        onClick={() => handleRoleSelect('Instructor')}
                                         >
                                         Instructor
                                         </a>
@@ -63,7 +58,7 @@ return (
                                         <a
                                         className="dropdown-item"
                                         href="#"
-                                        onClick={() => handleRoleSelect('Administrativos')} // Selecciona "Administrativos"
+                                        onClick={() => handleRoleSelect('Administrativos')} 
                                         >
                                         Administrativos
                                         </a>
@@ -72,7 +67,7 @@ return (
                                         <a
                                         className="dropdown-item"
                                         href="#"
-                                        onClick={() => handleRoleSelect('Administrador')} // Selecciona "Administrador"
+                                        onClick={() => handleRoleSelect('Administrador')} 
                                         >
                                         Administrador
                                         </a>
@@ -109,7 +104,6 @@ return (
             </div>
             </div>
         </div>
-
         <div className="cuadro-inferior2">
             <div className="recuadro"></div>
         </div>

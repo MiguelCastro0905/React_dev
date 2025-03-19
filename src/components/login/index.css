@@ -14,7 +14,7 @@
   }
   
   .recuadro2 {
-    background-color: white; /* Fondo blanco */
+    background-color: white; 
     width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -22,8 +22,8 @@
     padding: 30px;
     margin-top: 10%;
     margin-bottom: 20%;
-    color: black; /* Cambiar el color del texto a negro para que sea legible sobre el fondo blanco */
-    border: 2px solid #39A900; /* Borde de color #39A900 */
+    color: black; 
+    border: 2px solid #39A900;
 }
   
  .linea-horizontal{
@@ -60,44 +60,41 @@
   margin: 0 auto; 
 }
 
-/* Estilos personalizados para el dropdown */
+
 .Elegir_rol {
   color: #39A900;
 }
 
 .dropdown-toggle {
-  background-color: white; /* Color de fondo del botón */
+  background-color: white; 
   border-color: gainsboro;
   border-style: double;
-  color: #39A900; /* Color del texto "Elegir rol" */
+  color: #39A900; 
   display: flex;
-  justify-content: space-between; /* Alinea el texto y la flecha a los extremos */
-  align-items: center; /* Centra verticalmente el contenido */
+  justify-content: space-between; 
+  align-items: center; 
 }
 
-/* Cambiar el color de la flecha del dropdown */
 .dropdown-toggle::after {
-  border-top-color: #39A900; /* Color de la flecha */
-  margin-left: 10px; /* Espacio entre el texto y la flecha */
+  border-top-color: #39A900; 
+  margin-left: 10px; 
 }
 
-/* Estilos para el menú desplegable */
 .dropdown-menu {
-  border-radius: 5px; /* Bordes redondeados */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada */
-  border: 1px solid #e0e0e0; /* Borde sutil */
-  margin-top: 5px; /* Espacio entre el botón y el menú desplegable */
+  border-radius: 5px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  border: 1px solid #e0e0e0; 
+  margin-top: 5px; 
 }
 
-/* Cambiar el color de fondo al pasar el mouse sobre los elementos del dropdown */
 .dropdown-item:hover {
-  background-color: #39A900; /* Color de fondo al pasar el mouse */
-  color: white; /* Color del texto al pasar el mouse */
+  background-color: #39A900;
+  color: white; 
 }
 
-/* Estilo para el texto de los elementos del dropdown */
+
 .dropdown-item {
-  color: #333; /* Color del texto por defecto */
-  padding: 8px 16px; /* Espaciado interno */
-  transition: background-color 0.3s ease, color 0.3s ease; /* Transición suave */
+  color: #333; 
+  padding: 8px 16px; 
+  transition: background-color 0.3s ease, color 0.3s ease; 
 }
